@@ -7,7 +7,7 @@ namespace GradeBook
         static void Main(string[] args)
         {
 
-            Book book = new Book();
+            Book book = new Book("Salvatiti");
             book.AddGrade(45.4);
             book.AddGrade(20.2);
             book.AddGrade(11.4);

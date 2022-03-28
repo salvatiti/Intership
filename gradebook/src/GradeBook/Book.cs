@@ -3,11 +3,12 @@ namespace GradeBook
     public class Book
     {
 
-        List<double> grades = new List<double>();
+        private List<double> grades = new List<double>();
+        public string Name;
 
-        public Book()
+        public Book(String name)
         {
-
+            this.Name = name;
         }
 
         public void AddGrade(double grade)
